@@ -4,10 +4,10 @@
 rm -rf docs
 
 # docsファイルの作成
-docker-compose exec web hugo -t hugo-books
+docker-compose exec web hugo -t hugo-book
 
 # docsファイルの移動
-mv site/docs docs
+mv site/public docs
 
 # Commit comment
 ct="$(date +'%Y:%m:%d-%H:%M:%S')"
