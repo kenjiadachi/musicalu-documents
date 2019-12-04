@@ -1,15 +1,13 @@
 ---
-title: このページについて
+title: TOP
 type: docs
 ---
 
-## このページについて
+## Musicalu docsとは
 
-このページは、株式会社ムジカルの運営する出張演奏サービスLiveDeli、Musicaluについての詳細をご紹介するためのページです。
+Musicalu docsとは、株式会社ムジカルの運営する出張演奏サービスLiveDeli、Musicaluについての詳細をご紹介するためのページです。
 現在
 
 - Player登録に向けてのご紹介
 
 をこちらで行っています。
-
-## 株式会社ムジカルについて
