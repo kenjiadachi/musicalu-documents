@@ -1,5 +1,0 @@
-'use strict';(function(){const input=document.querySelector('#book-search-input');const results=document.querySelector('#book-search-results');input.addEventListener('focus',init);input.addEventListener('keyup',search);function init(){input.removeEventListener('focus',init);input.required=true;loadScript('/musicalu-documents/flexsearch.min.js');loadScript('/musicalu-documents/en.search-data.min.0e2caabb98c9e8dc1c3555c0c1bbaa5dbbc50b2bbc06485d0db6e017cd6eb23c.js',function(){input.required=false;search();});}
-function search(){while(results.firstChild){results.removeChild(results.firstChild);}
-if(!input.value){return;}
-const searchHits=window.bookSearchIndex.search(input.value,10);searchHits.forEach(function(page){const li=document.createElement('li'),a=li.appendChild(document.createElement('a'));a.href=page.href;a.textContent=page.title;results.appendChild(li);});}
-function loadScript(src,callback){const script=document.createElement('script');script.defer=true;script.async=false;script.src=src;script.onload=callback;document.head.appendChild(script);}})();
