@@ -5,6 +5,8 @@ title = 'Musicalu docs'
 theme = 'hugo-book'
 disableKinds = ['taxonomy', 'taxonomyTerm']
 
+languageCode = "ja"
+
 # Book configuration
 disablePathToLower = true
 enableGitInfo = false
